@@ -1,6 +1,6 @@
 <?php
 
-$sname= "localhost";
+$sname= "localhost:3306";
 $unmae= "root";
 $password = "sqlroot0";
 
