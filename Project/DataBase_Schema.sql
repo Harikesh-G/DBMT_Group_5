@@ -17,6 +17,8 @@ CREATE TABLE IF NOT EXISTS User (
     RoleID INT NOT NULL,
     FOREIGN KEY (RoleID) REFERENCES Role(RoleID));
 
+INSERT INTO User VALUES (0, 'user0', '000', 'test@test.com', 0);
+
 CREATE TABLE IF NOT EXISTS Organization (
 	OrganizationID INT NOT NULL PRIMARY KEY,
     OrganizationName VARCHAR(50) NOT NULL,
